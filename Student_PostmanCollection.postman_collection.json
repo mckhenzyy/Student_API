@@ -1,0 +1,173 @@
+{
+	"info": {
+		"_postman_id": "868bd3e7-f2f8-47f9-8813-14425048b091",
+		"name": "Student_PostmanCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42751153"
+	},
+	"item": [
+		{
+			"name": "http://localhost/student_api/api/index.php?id=2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Khezy Gwen P. Mangubat\",\r\n    \"midterm_score\": 92,\r\n    \"final_score\": 97\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/student_api/api/index.php?id=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"student_api",
+						"api",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/student_api/api/index.php",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/student_api/api/index.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"student_api",
+						"api",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/student_api/api/index.php",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Joana Mangubat\",\r\n  \"midterm\": 85,\r\n  \"final\": 87\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/student_api/api/index.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"student_api",
+						"api",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/student_api/api/index.php?id=5",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Karl Bg\",\r\n    \"midterm_score\": 74,\r\n    \"final_score\": 77\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/student_api/api/index.php?id=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"student_api",
+						"api",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/student_api/api/index.php",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"New Student\",\r\n  \"midterm\": 85,\r\n  \"final\": 90\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/student_api/api/index.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"student_api",
+						"api",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
